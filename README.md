@@ -82,6 +82,7 @@ onMouseOut="this.start()" 用来设置鼠标移出该区域时继续滚动
 onMouseOver="this.stop()" 用来设置鼠标移入该区域时停止滚动
 <marquee onMouseOut="this.start()" onMouseOver="this.stop()">marquee常用到的两个事件</marquee>    
 完整代码如下：
-<marquee id="affiche" align="left" behavior="scroll" bgcolor="#FF0000" direction="up" height="300" width="200" hspace="50"
-vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()" onMouseOver="this.stop()">
+<marquee id="affiche" align="left" behavior="scroll" bgcolor="#FF0000" direction="up" height="300" width="200"
+hspace="50"vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()"
+onMouseOver="this.stop()">
 ```
