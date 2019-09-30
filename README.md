@@ -46,7 +46,8 @@
 
  语法：<marquee hspace="10"  vspace="10">...</marquee>(等同于：margin：10px；)
 
-9.align：设定滚动字幕内容的对齐方式(包括9个值：absbottom、absmiddle、baseline、bottom、left、middle、right、texttop、top)
+9.align：设定滚动字幕内容的对齐方式(包括9个值：absbottom、absmiddle、baseline、bottom、left、middle、right、
+texttop、top)
 
 说明：absbottom：绝对底部对齐（与g、p等字母的最下端对齐）
       absmiddle：绝对中央对齐
@@ -74,4 +75,12 @@
 13.STRONG：设定滚动字幕的文字加粗
 
 语法：<marquee STRONG></marquee>
+```
+二、marquee常用到的两个事件：
+```html
+onMouseOut="this.start()" 用来设置鼠标移出该区域时继续滚动
+onMouseOver="this.stop()" 用来设置鼠标移入该区域时停止滚动
+<marquee onMouseOut="this.start()" onMouseOver="this.stop()">marquee常用到的两个事件</marquee>    
+完整代码如下：
+<marquee id="affiche" align="left" behavior="scroll" bgcolor="#FF0000" direction="up" height="300" width="200" hspace="50"            vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()" onMouseOver="this.stop()">
 ```
