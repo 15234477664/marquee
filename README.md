@@ -46,7 +46,7 @@
 
  语法：<marquee hspace="10"  vspace="10">...</marquee>(等同于：margin：10px；)
 
-9.align：设定滚动字幕内容的对齐方式(包括9个值：absbottom、absmiddle、baseline、bottom、left、middle、right、                                       texttop、top)
+9.align：设定滚动字幕内容的对齐方式(包括9个值：absbottom、absmiddle、baseline、bottom、left、middle、right、                                  texttop、top)
 
 说明：absbottom：绝对底部对齐（与g、p等字母的最下端对齐）
       absmiddle：绝对中央对齐
